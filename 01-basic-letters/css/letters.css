@@ -1,94 +1,14 @@
+* {
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
 /* 
 
-STROKE WIDTH:  50px;
-AVERAGE LETTER HEIGHT: 300px;
+lets start by listing out all the elements on this page
+then make some basic edits to them
+fix the container
+now lets embed a remote font from google
 
 */
-
-body {
-	margin: 0;
-}
-
-
-
-.letter {
-	position: relative;
-	width: 200px;
-	height: 300px;
-	border: 1px dotted red;
-	display: inline-block;
-}
-
-.i-stem {
-	width: 50px;
-	height: 300px;
-	background: black;
-	position: absolute;
-	left: 0;
-}
-
-.l-stem,
-.e-stem {
-	width: 50px;
-	height: 300px;
-	background: black;
-	position: absolute;
-	left: 0;
-}
-
-.l-foot,
-.e-foot {
-	width: 150px;
-	height: 50px;
-	background: black;
-	position: absolute;
-	left: 0;
-	top: 250px;
-}
-
-.e-arm {
-	width: 150px;
-	height: 50px;
-	background: black;
-	position: absolute;
-	left: 0;
-	top: 0;
-}
-
-.e-bar {
-	width: 100px;
-	height: 50px;
-	background: black;
-	position: absolute;
-	left: 0;
-	top: 120px;
-}
-
-
-.o-outter {
-	height: 300px;
-	width: 170px;
-	background: black;
-	position: absolute;
-	left: 0;
-	border-radius: 100px;
-}
-
-.o-counter {
-	height: 200px;
-	width: 70px;
-	background: white;
-	position: absolute;
-	left: 50px;
-	top: 50px;
-	border-radius: 100px;
-}
-
-.c-cutout {
-    height: 80px;
-    width: 50px;
-    background: white;
-    position: absolute;
-    top: 110px;
-    left: 120px;
-}
