@@ -1,0 +1,18 @@
+/*
+
+https://www.w3schools.com/cssref/css_units.asp
+
+px      pixels (1px = 1/96th of 1in)
+em      Relative to the font-size of the element (2em means 2 times the size of the current font)
+rem     relative to root of document
+%       percent of parent element
+vw      1/100 of viewport width
+vh      1/100 of viewport height
+pt	    points (1pt = 1/72 of 1in)
+pc	    picas (1pc = 12 pt)
+cm	    centimeters
+mm	    millimeters
+in	    inches (1in = 96px = 2.54cm)
+
+
+*/
