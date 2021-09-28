@@ -5,13 +5,48 @@ positioning
 float
 display:inlne-block
 display:flex
-flexbox:froggy
+https://flexboxfroggy.com/
 display:grid
-grid-garden
+https://cssgridgarden.com/
 
 
 */
 
 * {
     box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+
+img {
+    float:right;
+    clear:both;
+}
+
+
+
+#main {
+    display:grid;
+    grid-template-columns:300px 1fr 300px;
+    grid-template-rows:300px 1fr 300px;
+    width:100%;
+}
+
+.side {
+    min-height:200px;
+    background:red;
+}
+
+.big-column {
+    background:blue;
+    min-height:200px;
+}
+
+
+#header,
+#footer {
+    background:yellow;
+    min-height:50px;
 }
