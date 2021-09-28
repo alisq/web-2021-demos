@@ -2,6 +2,10 @@
 
 https://www.w3schools.com/cssref/css_units.asp
 
+box model
+units
+
+
 px      pixels (1px = 1/96th of 1in)
 em      Relative to the font-size of the element (2em means 2 times the size of the current font)
 rem     relative to root of document
@@ -16,3 +20,37 @@ in	    inches (1in = 96px = 2.54cm)
 
 
 */
+
+* {
+    box-sizing:border-box;
+}
+
+html {
+    font-size:20px;
+}
+
+body {
+    font-size:24px;
+}
+
+.rectangle {
+    
+    background:blue;
+    
+    color:white;
+    padding:20px;
+    margin:20px;
+    
+    
+}
+
+.absolute {
+    /* font-size:10px; */
+    width:30rem;
+    height:30rem;
+}
+
+.relative {
+    width:30vw;
+    height:30vw
+}

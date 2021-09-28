@@ -1,6 +1,6 @@
 /*
 							Predefined/Cross-browser color names
-#000000 					Hexadecimal colors
+#00 00 00 					Hexadecimal colors
 rgb(0,0,0) 					RGB colors
 rgba(0,0,0,1)				RGBA colors
 hsl(120, 100%, 50%)			HSL colors
@@ -24,3 +24,41 @@ methods
 8-bit (256)
 
 */
+
+
+
+/* 00—FF: 256 */
+
+
+body {
+
+	/* background:rgba(255,255,0,1); */
+	margin:0;
+
+	
+}
+
+
+
+
+.color-box {
+	/* position:absolute;
+	top:300px;
+	left:300px; */
+
+	/* width:200px; */
+	height:calc(100vh / 36);
+	
+	/* mix-blend-mode: screen; */
+	
+
+}
+
+h1 {
+	font-weight:normal;
+	font-size:120px;
+	position:absolute;
+	left:360px;
+	top:200px;
+	
+}
