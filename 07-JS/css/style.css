@@ -1,0 +1,70 @@
+* {
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Space+Mono');
+
+html, body {
+	font-family: "PT Serif";
+	font-size:20px;
+	color:#333333;
+}
+
+header {
+	position:fixed;
+	top:0;
+	height:100px;
+	width:100%;
+	background:red;
+	color:white;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:1rem;
+	
+}
+
+#hamburger {
+	width:40px;
+	height:40px;
+	background:none;
+	border:none;
+	display:grid;
+	grid-template-rows:1fr 1fr 1fr;
+	cursor:pointer;
+}
+
+#hamburger span {
+	display:block;
+	border:2px solid white;
+	border-radius:2px;
+
+}
+
+#main {
+	margin-top:100px;
+	display:grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.student {
+	border:1px solid #000;
+	width:100%;
+	height:100px;
+}
+
+/* 
+footer {
+	
+	min-height:100px;
+	width:100%;
+	background:red;
+	color:white;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:1rem;
+	
+} */
