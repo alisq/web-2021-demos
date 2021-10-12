@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Space+Mono');
+
+html, body {
+	font-family: "PT Serif";
+	font-size:20px;
+	color:#333333;
+}
+
+
+#container {
+	max-width:1000px;
+	margin-top:90vh;
+}
+
+
+.main-title {
+	font-size:4em;
+	position:fixed;
+	top:50%;
+	transform:translateY(-50%);
+	text-align:center;
+	color:#AAAAAA;
+	z-index:-1;
+}
+
+
+.event {
+	display:grid;
+	grid-template-columns: 2fr 4fr;
+	grid-column-gap:1em;
+	padding:0.5em;
+
+}
+
+.date { text-align:right; }
+
+.event-title {
+	font-family: 'Space Mono'
+}
+
+
+.event:hover {
+	background:#000;
+	color:#FFF;
+	transition:all 0.4s
+}
