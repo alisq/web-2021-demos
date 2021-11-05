@@ -1,0 +1,37 @@
+/*  
+ hover
+ link
+ element
+ transition
+ attaching to hover state
+
+ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
+
+@keyframes [name] {}
+animation-name
+animation-duration
+animation-iteration-count
+animation
+
+
+greensoc show.
+*/
+
+* {
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Space+Mono');
+
+html, body {
+	font-family: "PT Serif";
+	font-size:20px;
+	color:#333333;
+}
+
+
+.button {
+	
+}
